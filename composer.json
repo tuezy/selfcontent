@@ -1,0 +1,18 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Kernel\\": "src/Kernel",
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "laravel/laravel": "^11.1",
+        "symfony/runtime": "^7.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": true
+        }
+    }
+
+}
