@@ -17,6 +17,10 @@ class App extends Application{
             ->withProviders();
     }
 
+    public static function init(array $context): Configuration{
+        return self::configure($context['DOCUMENT_ROOT']);
+    }
+
     public function getNamespace()
     {
         return "App";
